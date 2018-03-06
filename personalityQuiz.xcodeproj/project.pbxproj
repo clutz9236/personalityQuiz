@@ -8,20 +8,24 @@
 
 /* Begin PBXBuildFile section */
 		E39F1A3420471C1700726217 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E39F1A3320471C1700726217 /* AppDelegate.swift */; };
-		E39F1A3620471C1700726217 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E39F1A3520471C1700726217 /* ViewController.swift */; };
+		E39F1A3620471C1700726217 /* InitialViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E39F1A3520471C1700726217 /* InitialViewController.swift */; };
 		E39F1A3920471C1700726217 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E39F1A3720471C1700726217 /* Main.storyboard */; };
 		E39F1A3B20471C1700726217 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E39F1A3A20471C1700726217 /* Assets.xcassets */; };
 		E39F1A3E20471C1700726217 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E39F1A3C20471C1700726217 /* LaunchScreen.storyboard */; };
+		E3C9A230204DB14E00DE6421 /* ResultsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E3C9A22F204DB14E00DE6421 /* ResultsViewController.swift */; };
+		E3C9A234204DB19A00DE6421 /* QuestionsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E3C9A233204DB19A00DE6421 /* QuestionsViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		E39F1A3020471C1700726217 /* personalityQuiz.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = personalityQuiz.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		E39F1A3320471C1700726217 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		E39F1A3520471C1700726217 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		E39F1A3520471C1700726217 /* InitialViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InitialViewController.swift; sourceTree = "<group>"; };
 		E39F1A3820471C1700726217 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		E39F1A3A20471C1700726217 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		E39F1A3D20471C1700726217 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		E39F1A3F20471C1700726217 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E3C9A22F204DB14E00DE6421 /* ResultsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ResultsViewController.swift; sourceTree = "<group>"; };
+		E3C9A233204DB19A00DE6421 /* QuestionsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuestionsViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -55,8 +59,10 @@
 			isa = PBXGroup;
 			children = (
 				E39F1A3320471C1700726217 /* AppDelegate.swift */,
-				E39F1A3520471C1700726217 /* ViewController.swift */,
+				E39F1A3520471C1700726217 /* InitialViewController.swift */,
 				E39F1A3720471C1700726217 /* Main.storyboard */,
+				E3C9A233204DB19A00DE6421 /* QuestionsViewController.swift */,
+				E3C9A22F204DB14E00DE6421 /* ResultsViewController.swift */,
 				E39F1A3A20471C1700726217 /* Assets.xcassets */,
 				E39F1A3C20471C1700726217 /* LaunchScreen.storyboard */,
 				E39F1A3F20471C1700726217 /* Info.plist */,
@@ -136,8 +142,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				E39F1A3620471C1700726217 /* ViewController.swift in Sources */,
+				E39F1A3620471C1700726217 /* InitialViewController.swift in Sources */,
 				E39F1A3420471C1700726217 /* AppDelegate.swift in Sources */,
+				E3C9A234204DB19A00DE6421 /* QuestionsViewController.swift in Sources */,
+				E3C9A230204DB14E00DE6421 /* ResultsViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
