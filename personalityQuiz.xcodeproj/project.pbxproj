@@ -14,6 +14,7 @@
 		E39F1A3E20471C1700726217 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E39F1A3C20471C1700726217 /* LaunchScreen.storyboard */; };
 		E3C9A230204DB14E00DE6421 /* ResultsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E3C9A22F204DB14E00DE6421 /* ResultsViewController.swift */; };
 		E3C9A234204DB19A00DE6421 /* QuestionsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E3C9A233204DB19A00DE6421 /* QuestionsViewController.swift */; };
+		E3DA06E42050510900E5CE11 /* QuestionData.swift in Sources */ = {isa = PBXBuildFile; fileRef = E3DA06E32050510900E5CE11 /* QuestionData.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +27,7 @@
 		E39F1A3F20471C1700726217 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		E3C9A22F204DB14E00DE6421 /* ResultsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ResultsViewController.swift; sourceTree = "<group>"; };
 		E3C9A233204DB19A00DE6421 /* QuestionsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuestionsViewController.swift; sourceTree = "<group>"; };
+		E3DA06E32050510900E5CE11 /* QuestionData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuestionData.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -61,6 +63,7 @@
 				E39F1A3320471C1700726217 /* AppDelegate.swift */,
 				E39F1A3520471C1700726217 /* InitialViewController.swift */,
 				E39F1A3720471C1700726217 /* Main.storyboard */,
+				E3DA06E32050510900E5CE11 /* QuestionData.swift */,
 				E3C9A233204DB19A00DE6421 /* QuestionsViewController.swift */,
 				E3C9A22F204DB14E00DE6421 /* ResultsViewController.swift */,
 				E39F1A3A20471C1700726217 /* Assets.xcassets */,
@@ -144,6 +147,7 @@
 			files = (
 				E39F1A3620471C1700726217 /* InitialViewController.swift in Sources */,
 				E39F1A3420471C1700726217 /* AppDelegate.swift in Sources */,
+				E3DA06E42050510900E5CE11 /* QuestionData.swift in Sources */,
 				E3C9A234204DB19A00DE6421 /* QuestionsViewController.swift in Sources */,
 				E3C9A230204DB14E00DE6421 /* ResultsViewController.swift in Sources */,
 			);
